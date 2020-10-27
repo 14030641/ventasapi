@@ -14,7 +14,7 @@ class CategoriesController extends ResourceController {
   }
 
 //Get de un objeto especifico
-  @Operation.get('idCategory')
+  @Operation.get('idcategory')
   Future<Response> getCategory(@Bind.path('idcategory') int idcateg) async {
     final categoriesQuery = Query<Categories>(context)
       ..where((a) => a.idCategory).equalTo(idcateg);

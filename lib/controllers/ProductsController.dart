@@ -14,7 +14,7 @@ class ProductsController extends ResourceController {
   }
 
 //Get de un objeto especifico
-  @Operation.get('idProduct')
+  @Operation.get('idproduct')
   Future<Response> getProduct(@Bind.path('idproduct') int idprod) async {
     final productQuery = Query<Products>(context)
       ..where((a) => a.idProduct).equalTo(idprod);

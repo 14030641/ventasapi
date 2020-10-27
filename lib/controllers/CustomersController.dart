@@ -14,7 +14,7 @@ class CustomersController extends ResourceController {
   }
 
 //Get de un objeto especifico
-  @Operation.get('idCustomer')
+  @Operation.get('idcustomer')
   Future<Response> getDetail(@Bind.path('idcustomer') int idcust) async {
     final customerQuery = Query<Customers>(context)
       ..where((a) => a.idCustomer).equalTo(idcust);

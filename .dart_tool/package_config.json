@@ -32,6 +32,12 @@
       "languageVersion": "2.2"
     },
     {
+      "name": "auth_header",
+      "rootUri": "file:///C:/Users/seeke/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/pub_cache-0.2.3/hosted/pub.dev/auth_header-2.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "boolean_selector",
       "rootUri": "file:///C:/Users/seeke/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/pub_cache-0.2.3/hosted/pub.dev/boolean_selector-1.0.5",
       "packageUri": "lib/",
@@ -106,6 +112,12 @@
     {
       "name": "isolate_executor",
       "rootUri": "file:///C:/Users/seeke/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/pub_cache-0.2.3/hosted/pub.dev/isolate_executor-2.0.2+3",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "jaguar_jwt",
+      "rootUri": "file:///C:/Users/seeke/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/pub_cache-0.2.3/hosted/pub.dev/jaguar_jwt-2.1.6",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
@@ -362,7 +374,7 @@
       "languageVersion": "2.0"
     }
   ],
-  "generated": "2020-10-26T19:32:46.628524Z",
+  "generated": "2020-10-26T21:12:31.006001Z",
   "generator": "pub",
-  "generatorVersion": "2.10.1"
+  "generatorVersion": "2.7.2"
 }

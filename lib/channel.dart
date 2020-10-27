@@ -3,6 +3,8 @@ import 'package:ventasapi/controllers/CustomersController.dart';
 import 'package:ventasapi/controllers/OrderDetailsController.dart';
 import 'package:ventasapi/controllers/OrdersController.dart';
 import 'package:ventasapi/controllers/ProductsController.dart';
+import 'package:ventasapi/controllers/SignupController.dart';
+import 'package:ventasapi/controllers/RestrictedController.dart';
 
 import 'ventasapi.dart';
 
@@ -61,6 +63,10 @@ class VentasapiChannel extends ApplicationChannel {
     router
         .route("/categories[/:idcategory]")
         .link(() => CategoriesController(context));
+
+    router.route("/signup").link(() => SignupController());
+
+    router.route("/restricted").link(() => RestrictedController());
 
     return router;
   }

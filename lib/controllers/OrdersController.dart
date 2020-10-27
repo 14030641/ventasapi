@@ -14,7 +14,7 @@ class OrdersController extends ResourceController {
   }
 
 //Get de un objeto especifico
-  @Operation.get('idOrder')
+  @Operation.get('idorder')
   Future<Response> getOrder(@Bind.path('idorder') int idord) async {
     final orderQuery = Query<Orders>(context)
       ..where((a) => a.idOrder).equalTo(idord);
